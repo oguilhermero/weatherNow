@@ -6,7 +6,7 @@
 const prompt = require("prompt-sync")({sigint: true});
 const { json } = require("express");
 const api_key = require("./api-key.js");
-const location = prompt("In what city are you at?");
+const location = prompt("In what city are you at? ");
 // const location = "São Paulo"; //used to debug code
 const units = "m";
 const url = `http://dataservice.accuweather.com/`;
